@@ -92,7 +92,7 @@ class queue{
             front=front->link;
             delete temp;
             if(front == nullptr) {
-                rear = nullptr; // Set rear to nullptr if queue becomes empty
+                rear = nullptr; 
             }
         }
     }
